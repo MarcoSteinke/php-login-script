@@ -1,5 +1,19 @@
+# Quadodo (updated):
 
-Here you can find the source code for the free PHP login script by Quadodo.
+## Introduction:
 
-This is the latest stable version and will have all updates before the packages are released on SourceForge.
+With this repository I want to update the quadodo framework to more modern web standards, since this project is no longer maintained since 2013. I used this project to develop several applications
+such as:
 
+- Skychat (2019)
+- Food Roulette (2019)
+- Smart Home Dashboard (2019)
+
+Today the quadodo framework can still be used for PHP applications with UMS. But in some ways the default pages and the web components from which the certain pages get constructed, 
+are deprecated and may be reimplemented using new frameworks such as Bootstrap, RedBeanPHP and Google Ads.
+
+Also the database may receive an upgrade in security. The complete framework would profit from a component which focuses on encryption.
+
+### Security:
+
+For my SkyChat I implemented some encryption which could be transported into this framework. The encryption was based on RSA and generated a key-pair for each new user.
